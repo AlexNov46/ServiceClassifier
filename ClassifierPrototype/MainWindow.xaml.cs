@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
+using Microsoft.ML;
+using ClassifierPrototypeML.Model;
 
 namespace ClassifierPrototype
 {
@@ -23,6 +26,12 @@ namespace ClassifierPrototype
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        
+        private void Start_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

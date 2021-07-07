@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ClassifierPrototype"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Классификация обращения клиента" Height="380" Width="475">
+    <Grid Margin="0,0,0,-6">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="165*"/>
+            <RowDefinition Height="201*"/>
+        </Grid.RowDefinitions>
+        <GroupBox Header="Текст обращения" Margin="10,0,10,203" Grid.RowSpan="2">
+            <Grid>
+                <TextBox Text="" TextWrapping="Wrap" x:Name="Input"/>
 
+            </Grid>
+        </GroupBox>
+        <Button Content="Обработка" HorizontalAlignment="Center" Margin="0,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="433" Height="25" x:Name="Start" Click="Start_Click"/>
+        <Label Content="Класс обращения: " HorizontalAlignment="Left" Margin="10,70,0,0" Grid.Row="1" VerticalAlignment="Top" FontWeight="Normal" FontSize="16"/>
+        <Label Content="???" HorizontalAlignment="Left" Margin="174,75,0,0" Grid.Row="1" VerticalAlignment="Top" Visibility="Hidden" x:Name="Output"/>
     </Grid>
 </Window>

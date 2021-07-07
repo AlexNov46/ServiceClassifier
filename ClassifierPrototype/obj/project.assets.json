@@ -3341,11 +3341,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ProBookG6\\source\\repos\\ClassifierPrototype\\ClassifierPrototype\\ClassifierPrototype.csproj",
+      "projectUniqueName": "C:\\Users\\ProBookG6\\Documents\\GitHub\\ServiceClassifier\\ClassifierPrototype\\ClassifierPrototype.csproj",
       "projectName": "ClassifierPrototype",
-      "projectPath": "C:\\Users\\ProBookG6\\source\\repos\\ClassifierPrototype\\ClassifierPrototype\\ClassifierPrototype.csproj",
+      "projectPath": "C:\\Users\\ProBookG6\\Documents\\GitHub\\ServiceClassifier\\ClassifierPrototype\\ClassifierPrototype.csproj",
       "packagesPath": "C:\\Users\\ProBookG6\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ProBookG6\\source\\repos\\ClassifierPrototype\\ClassifierPrototype\\obj\\",
+      "outputPath": "C:\\Users\\ProBookG6\\Documents\\GitHub\\ServiceClassifier\\ClassifierPrototype\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -3368,8 +3368,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\ProBookG6\\source\\repos\\ClassifierPrototype\\ClassifierPrototypeML.Model\\ClassifierPrototypeML.Model.csproj": {
-              "projectPath": "C:\\Users\\ProBookG6\\source\\repos\\ClassifierPrototype\\ClassifierPrototypeML.Model\\ClassifierPrototypeML.Model.csproj"
+            "C:\\Users\\ProBookG6\\Documents\\GitHub\\ServiceClassifier\\ClassifierPrototypeML.Model\\ClassifierPrototypeML.Model.csproj": {
+              "projectPath": "C:\\Users\\ProBookG6\\Documents\\GitHub\\ServiceClassifier\\ClassifierPrototypeML.Model\\ClassifierPrototypeML.Model.csproj"
             }
           }
         }

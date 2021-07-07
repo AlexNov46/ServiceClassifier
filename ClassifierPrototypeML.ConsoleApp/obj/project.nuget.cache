@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VgZPB/Ij60Sl9vLjMb7K5SfrznTJsH2kWfQFcjH48PTK4F410GYXbcN+8GmtbdZDLeuGRuQQoVrZoxS7mXDjCw==",
+  "dgSpecHash": "1/VqZwoUdqgIRHmVE6Nm9i27xmvLuN8cWYrLXBHUNKn6e7rdm4t5eSDmPRFwnFO3yPn20eqtFTS7l65KixbdUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ProBookG6\\source\\repos\\ClassifierPrototype\\ClassifierPrototypeML.ConsoleApp\\ClassifierPrototypeML.ConsoleApp.csproj",
+  "projectFilePath": "C:\\Users\\ProBookG6\\Documents\\GitHub\\ServiceClassifier\\ClassifierPrototypeML.ConsoleApp\\ClassifierPrototypeML.ConsoleApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ProBookG6\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\ProBookG6\\.nuget\\packages\\microsoft.ml\\1.5.0-preview2\\microsoft.ml.1.5.0-preview2.nupkg.sha512",

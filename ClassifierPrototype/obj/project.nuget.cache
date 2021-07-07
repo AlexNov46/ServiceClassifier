@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IJUK5LaWP9ZTOG0TmAbu8l9t4e3/BS93lB6BCBUO7x9ZEs5LTmeUfGeB52DE7L8BjxEqmY1DiGhvmbayzm7PoA==",
+  "dgSpecHash": "7BXcWvUDIUBBZKfdGwpfaT9lH17PBpYfk19ZyAsvu+jckaAF9MjuhvomI9fNI9IssWlqDDpP1OyKK/GIjAcmng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ProBookG6\\source\\repos\\ClassifierPrototype\\ClassifierPrototype\\ClassifierPrototype.csproj",
+  "projectFilePath": "C:\\Users\\ProBookG6\\Documents\\GitHub\\ServiceClassifier\\ClassifierPrototype\\ClassifierPrototype.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ProBookG6\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\ProBookG6\\.nuget\\packages\\microsoft.ml\\1.5.0-preview2\\microsoft.ml.1.5.0-preview2.nupkg.sha512",

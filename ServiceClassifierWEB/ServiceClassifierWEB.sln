@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceClassifierWEB", "ServiceClassifierWEB\ServiceClassifierWEB.csproj", "{46F5525A-3166-47D8-BA82-8F6B211E1914}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassifierPrototypeML.Model", "..\ClassifierPrototypeML.Model\ClassifierPrototypeML.Model.csproj", "{EF7DB652-DEE9-47BC-B61E-4D2613F8590E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46F5525A-3166-47D8-BA82-8F6B211E1914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F5525A-3166-47D8-BA82-8F6B211E1914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F5525A-3166-47D8-BA82-8F6B211E1914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F5525A-3166-47D8-BA82-8F6B211E1914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF7DB652-DEE9-47BC-B61E-4D2613F8590E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7DB652-DEE9-47BC-B61E-4D2613F8590E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7DB652-DEE9-47BC-B61E-4D2613F8590E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7DB652-DEE9-47BC-B61E-4D2613F8590E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8FB9824-F66A-40C9-A91A-2CC918509CC6}
+	EndGlobalSection
+EndGlobal

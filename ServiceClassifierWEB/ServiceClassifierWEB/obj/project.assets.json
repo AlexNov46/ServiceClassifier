@@ -1656,6 +1656,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
+      },
+      "ClassifierPrototypeML.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.ML": "1.5.0-preview2"
+        },
+        "compile": {
+          "bin/placeholder/ClassifierPrototypeML.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassifierPrototypeML.Model.dll": {}
+        }
       }
     }
   },
@@ -5784,10 +5797,16 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
+    },
+    "ClassifierPrototypeML.Model/1.0.0": {
+      "type": "project",
+      "path": "../../ClassifierPrototypeML.Model/ClassifierPrototypeML.Model.csproj",
+      "msbuildProject": "../../ClassifierPrototypeML.Model/ClassifierPrototypeML.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "ClassifierPrototypeML.Model >= 1.0.0",
       "Microsoft.Extensions.ML >= 1.5.5",
       "Microsoft.ML >= 1.5.5"
     ]
@@ -5826,7 +5845,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ProBookG6\\Documents\\GitHub\\ServiceClassifier\\ClassifierPrototypeML.Model\\ClassifierPrototypeML.Model.csproj": {
+              "projectPath": "C:\\Users\\ProBookG6\\Documents\\GitHub\\ServiceClassifier\\ClassifierPrototypeML.Model\\ClassifierPrototypeML.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

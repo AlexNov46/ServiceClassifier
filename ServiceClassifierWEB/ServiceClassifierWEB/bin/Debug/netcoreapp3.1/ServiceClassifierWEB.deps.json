@@ -31,6 +31,7 @@
     ".NETCoreApp,Version=v3.1": {
       "ServiceClassifierWEB/1.0.0": {
         "dependencies": {
+          "ClassifierPrototypeML.Model": "1.0.0",
           "Microsoft.Extensions.ML": "1.5.5",
           "Microsoft.ML": "1.5.5",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
@@ -1304,6 +1305,17 @@
           "System.Text.Encoding": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
+        }
+      },
+      "ClassifierPrototypeML.Model/1.0.0": {
+        "dependencies": {
+          "Microsoft.ML": "1.5.5"
+        },
+        "runtime": {
+          "ClassifierPrototypeML.Model.dll": {}
+        },
+        "compile": {
+          "ClassifierPrototypeML.Model.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -3713,6 +3725,11 @@
       "sha512": "sha512-lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
       "path": "system.xml.xmldocument/4.3.0",
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
+    },
+    "ClassifierPrototypeML.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",

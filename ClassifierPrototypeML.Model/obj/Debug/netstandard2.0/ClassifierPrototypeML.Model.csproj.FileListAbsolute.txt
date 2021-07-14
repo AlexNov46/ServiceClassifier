@@ -8,13 +8,3 @@ C:\Users\ProBookG6\source\repos\ClassifierPrototype\ClassifierPrototypeML.Model\
 C:\Users\ProBookG6\source\repos\ClassifierPrototype\ClassifierPrototypeML.Model\obj\Debug\netstandard2.0\ClassifierPrototypeML.Model.csproj.CoreCompileInputs.cache
 C:\Users\ProBookG6\source\repos\ClassifierPrototype\ClassifierPrototypeML.Model\obj\Debug\netstandard2.0\ClassifierPrototypeML.Model.dll
 C:\Users\ProBookG6\source\repos\ClassifierPrototype\ClassifierPrototypeML.Model\obj\Debug\netstandard2.0\ClassifierPrototypeML.Model.pdb
-C:\Users\ProBookG6\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Model\bin\Debug\netstandard2.0\MLModel.zip
-C:\Users\ProBookG6\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Model\bin\Debug\netstandard2.0\ClassifierPrototypeML.Model.deps.json
-C:\Users\ProBookG6\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Model\bin\Debug\netstandard2.0\ClassifierPrototypeML.Model.dll
-C:\Users\ProBookG6\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Model\bin\Debug\netstandard2.0\ClassifierPrototypeML.Model.pdb
-C:\Users\ProBookG6\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Model\obj\Debug\netstandard2.0\ClassifierPrototypeML.Model.csproj.AssemblyReference.cache
-C:\Users\ProBookG6\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Model\obj\Debug\netstandard2.0\ClassifierPrototypeML.Model.AssemblyInfoInputs.cache
-C:\Users\ProBookG6\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Model\obj\Debug\netstandard2.0\ClassifierPrototypeML.Model.AssemblyInfo.cs
-C:\Users\ProBookG6\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Model\obj\Debug\netstandard2.0\ClassifierPrototypeML.Model.csproj.CoreCompileInputs.cache
-C:\Users\ProBookG6\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Model\obj\Debug\netstandard2.0\ClassifierPrototypeML.Model.dll
-C:\Users\ProBookG6\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Model\obj\Debug\netstandard2.0\ClassifierPrototypeML.Model.pdb

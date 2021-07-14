@@ -16,7 +16,7 @@ namespace ServiceClassifierWEB.Controllers
         }
         private void Preprocessing(ref string text)
         {
-            //удаление из входной строки ссылок, лишних пробелов и тд
+            //удаление из входной строки ссылок, лишних пробелов, символов и тд
             if (!String.IsNullOrEmpty(text))
             {
                 text = text.Replace("ё", "е");

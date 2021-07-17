@@ -1,7 +1,11 @@
-﻿using ClassifierPrototypeML.Model;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.ML;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using ClassifierPrototypeML.Model;
+using Microsoft.Extensions.ML;
 
 namespace ServiceClassifierWEB.Controllers
 {
@@ -27,7 +31,14 @@ namespace ServiceClassifierWEB.Controllers
                 text = text.ToLower();
             }
         }
-        private OutputData Query(string input)
+        private async void Log(string log)
+        {
+            using (System.IO.StreamWriter loger = new System.IO.StreamWriter("log.txt", true, System.Text.Encoding.Default))
+            {
+                await loger.WriteLineAsync(log);
+            }
+        }
+        private string Query(string input)
         {
             string result = String.Empty;
             Preprocessing(ref input);
@@ -52,8 +63,8 @@ namespace ServiceClassifierWEB.Controllers
             {
                 result = "Positive!";
             }
-
-            return (new OutputData { Output = result });
+            Log($"{input} - {result}");
+            return result;
 
         }
 
@@ -61,7 +72,7 @@ namespace ServiceClassifierWEB.Controllers
         [HttpGet("urlquery/{input}")]
         public ActionResult<OutputData> GetFromURL(string input)
         {
-            return Query(input);
+            return (new OutputData { Output = Query(input) });
         }
 
         //Пустой запрос URL
@@ -82,8 +93,9 @@ namespace ServiceClassifierWEB.Controllers
             }
             else
             {
-                return Query(inputJSON.Input);
+                return (new OutputData { Output = Query(inputJSON.Input) });
             }
         }
     }
 }
+

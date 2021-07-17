@@ -119,11 +119,7 @@
           "dependencies": {
             "Microsoft.Extensions.ML": {
               "target": "Package",
-              "version": "[1.5.5, )"
-            },
-            "Microsoft.ML": {
-              "target": "Package",
-              "version": "[1.5.5, )"
+              "version": "[1.6.0, )"
             }
           },
           "imports": [

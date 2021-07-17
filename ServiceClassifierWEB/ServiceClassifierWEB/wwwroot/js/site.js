@@ -3,3 +3,14 @@
 
 // Write your JavaScript code.
 
+
+//событе нажатия кнопки
+
+jQuery(document).ready(function ($) {
+
+    $('.button#Start').on('click', function (e)
+    {
+        alert('hello');
+    });
+});
+

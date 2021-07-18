@@ -3597,25 +3597,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ProBookG6\\.nuget\\packages\\": {},
+    "C:\\Users\\Alex\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ProBookG6\\Documents\\GitHub\\ServiceClassifier\\ClassifierPrototypeML.Model\\ClassifierPrototypeML.Model.csproj",
+      "projectUniqueName": "C:\\Users\\Alex\\Documents\\GitHub\\ServiceClassifier\\ClassifierPrototypeML.Model\\ClassifierPrototypeML.Model.csproj",
       "projectName": "ClassifierPrototypeML.Model",
-      "projectPath": "C:\\Users\\ProBookG6\\Documents\\GitHub\\ServiceClassifier\\ClassifierPrototypeML.Model\\ClassifierPrototypeML.Model.csproj",
-      "packagesPath": "C:\\Users\\ProBookG6\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ProBookG6\\Documents\\GitHub\\ServiceClassifier\\ClassifierPrototypeML.Model\\obj\\",
+      "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\ServiceClassifier\\ClassifierPrototypeML.Model\\ClassifierPrototypeML.Model.csproj",
+      "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alex\\Documents\\GitHub\\ServiceClassifier\\ClassifierPrototypeML.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\ProBookG6\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"

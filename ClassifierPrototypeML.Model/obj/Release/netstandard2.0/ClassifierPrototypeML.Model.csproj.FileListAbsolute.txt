@@ -8,3 +8,13 @@ C:\Users\ProBookG6\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Mode
 C:\Users\ProBookG6\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Model\obj\Release\netstandard2.0\ClassifierPrototypeML.Model.csproj.CoreCompileInputs.cache
 C:\Users\ProBookG6\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Model\obj\Release\netstandard2.0\ClassifierPrototypeML.Model.dll
 C:\Users\ProBookG6\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Model\obj\Release\netstandard2.0\ClassifierPrototypeML.Model.pdb
+C:\Users\Alex\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Model\bin\Release\netstandard2.0\MLModel.zip
+C:\Users\Alex\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Model\bin\Release\netstandard2.0\ClassifierPrototypeML.Model.deps.json
+C:\Users\Alex\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Model\bin\Release\netstandard2.0\ClassifierPrototypeML.Model.dll
+C:\Users\Alex\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Model\bin\Release\netstandard2.0\ClassifierPrototypeML.Model.pdb
+C:\Users\Alex\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Model\obj\Release\netstandard2.0\ClassifierPrototypeML.Model.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Model\obj\Release\netstandard2.0\ClassifierPrototypeML.Model.AssemblyInfoInputs.cache
+C:\Users\Alex\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Model\obj\Release\netstandard2.0\ClassifierPrototypeML.Model.AssemblyInfo.cs
+C:\Users\Alex\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Model\obj\Release\netstandard2.0\ClassifierPrototypeML.Model.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Model\obj\Release\netstandard2.0\ClassifierPrototypeML.Model.dll
+C:\Users\Alex\Documents\GitHub\ServiceClassifier\ClassifierPrototypeML.Model\obj\Release\netstandard2.0\ClassifierPrototypeML.Model.pdb

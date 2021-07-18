@@ -1,44 +1,49 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
-
-// Write your JavaScript code.
-
-
+﻿
 //обработчик нажатия кнопки
-
-jQuery(document).ready(function ($)
+jQuery(document).ready(async function ($)
 {
 
-    $('.button#Start').on('click', function (e)
+    $('.button#Start').on('click', async function (e)
     {
-        //alert('hello');
-        Query();
+        await Query();
     });
 });
 
 //работа с текстом формы
-function Query()
+async function Query()
 {
     var inputText = $("#Input").val();
     var outputBox = document.getElementById('Output');
-    var outputText = GetAPIResult(inputText);
+    outputBox.innerHTML = "...";
+    var outputText = await GetAPIResult(inputText);
     outputBox.innerHTML = outputText;
 }
+
 
 //JSON запрос в API
 async function GetAPIResult(inputText)
 {
-    const url = "/api/Classification/jsonquery/";
-    const input = { input: inputText };
-    const response = await fetch(url,
-        {
-            method: 'POST',
-            headers: { "Content-Type": "application/json" },
-            mode: 'cors',
-            cache: 'default',
-            body: JSON.stringify(input)
-        });
-    const result = await response.json();
+    var myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+
+    var raw = JSON.stringify({
+        "Input": inputText
+    });
+
+    var requestOptions = {
+        method: 'POST',
+        headers: myHeaders,
+        body: raw,
+        redirect: 'follow'
+    };
+
+    var url = "api/classification/jsonquery";
+
+    var response = await fetch(url, requestOptions);
+    var output = await response.json();
+    var result = output.output;
+
+    return output.output;
 }
 
 

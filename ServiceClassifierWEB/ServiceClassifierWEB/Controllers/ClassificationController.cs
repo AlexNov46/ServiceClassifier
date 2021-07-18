@@ -84,7 +84,7 @@ namespace ServiceClassifierWEB.Controllers
 
         //Запрос через формат JSON
 
-        [HttpGet("jsonquery")]
+        [HttpPost("jsonquery")]
         public ActionResult<OutputData> GetFromJSON([FromBody] InputData inputJSON)
         {
             if (String.IsNullOrEmpty(inputJSON.Input))

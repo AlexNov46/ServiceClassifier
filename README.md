@@ -32,7 +32,7 @@ Web-Сервис для классификации обращений клиен
       "output": "Positive!"
   }
 
-  GET http://classifier.somee.com/api/Classification/jsonquery/
+POST http://classifier.somee.com/api/Classification/jsonquery/
 
 Для подготовки датасета для машинного обучения использовался русскоязычный корпус коротких текстов RuTweetCorp.
 
